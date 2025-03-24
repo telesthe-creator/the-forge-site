@@ -5,7 +5,8 @@
 
     .logo {
         margin: 0;
-        text-align: center;
+        text-align: left;
+        margin-left: 10%;
     }
 
     .menu {
@@ -26,7 +27,8 @@
         text-align: center;
     }
 
-    .img-headline {
+    .img-headline,
+    img {
         flex: 100%;
         margin: 5%;
         text-align: center;
