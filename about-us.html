@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Software House">
+    <meta name="keywords"
+        content="Desenvolvimento de Software,Soluções Tecnológicas,Aplicativos Web e Mobile, Automação de Processos">
+    <link rel="stylesheet" href="/CSS/estilo.css">
+    <link rel="stylesheet" href="/CSS/responsivo.css">
+    <title>TheForge - Sobre nós </title>
+
+    <style>
+        /* TEMP */
+        .container {
+            display: flex;
+            padding: 30px;
+
+        }
+
+        .container::before {
+            background-image: url('/img/TEMP-1_about-us.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            inset: 0;
+            content: '';
+            position: absolute;
+            opacity: 0.4;
+        }
+
+        .left-column {
+            flex: 1;
+            padding-left: 5%;
+            padding-right: 500px;
+        }
+
+        .right-column {
+            flex: 1;
+            padding: 20px 100px;
+        }
+
+        h1 {
+            color: #040243;
+        }
+
+        .service-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .service-text {
+            flex: 1;
+            /* color: gray; */
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>TheForge</h1>
+        </div>
+        <div class="menu">
+            <a href="/index.html">Home</a>
+            <a href="/about-us.html">Quem somos</a>
+            <a href="#">Serviços</a>
+            <a id="botao" href="#">Fale Conosco</a>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="container">
+            <div class="left-column">
+                <h2 style="font-size: 50px ;" class="headline">Nossa jornada</h2>
+                <p>Iniciada a partir do um sonho de quatro amigos universitários e com ponta pé inicial
+                    em 16 de outubro de
+                    2024, a The Forge é composta por um time de sete pessoas. Contando com uma administrador, um
+                    auxiliar
+                    administrativo, três desenvolvedores e, atualmente, dois estagiários.</p>
+                <p>
+                    Trabalhando em Full Stack, a The Forge tem como objetivo principal promover soluções personalizadas,
+                    práticas e impulsionadoras para seus clientes. Aalém disso, nessa pagina diciona cards com a missão,
+                    visão e valores da empresa.
+                </p>
+            </div>
+            <div class="right-column">
+                <h2>O que fazemos?</h2>
+                <div class="service-item">
+                    <div class="service-text">
+                        <strong>Missão</strong>
+                        <p>Oferecer soluções tecnológicas personalizadas e práticas, atuando com inovação e
+                            excelência em desenvolvimento Full Stack, impulsionando o crescimento e o sucesso de nossos
+                            clientes.
+                        </p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-text">
+                        <strong>Visão</strong>
+                        <p>Visão: Ser reconhecida como uma empresa referência em desenvolvimento Full Stack,
+                            destacando-se pela capacidade de inovação, qualidade das soluções entregues e compromisso
+                            com resultados reais até 2030.
+                        </p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-text">
+                        <strong>Compromisso</strong>
+                        <p>Dedicação em promover resultados positivos e impulsionadores para o crescimento dos
+                            clientes e parceiros.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="logo-rodape">
+            <h1 class="agencia">TheForge</h1>
+            <p style="color:white">Lorem, ipsum dolor.</p>
+            <b style="color:white">©Todos os direitos reservados</b>
+        </div>
+    </footer>
+</body>
+
+</html>
