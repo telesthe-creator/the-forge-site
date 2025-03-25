@@ -3,7 +3,14 @@
 * {
     box-sizing: border-box;
     padding: 0;
+    margin: 0;
     outline: none;
+}
+
+:root {
+    --blue: #180F4A;
+    --pink: #FF2978;
+    --purple: #6965F8;
 }
 
 body {
@@ -14,20 +21,19 @@ body {
 .navbar {
     display: flex;
     flex-flow: row wrap;
-    height: 100px;
+    height: fit-content;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: sticky;
     top: 0px;
     width: 100%;
     background: white;
+    opacity: 0.9;
+    z-index: 1;
+
 }
 
-:root {
-    --blue: #180F4A;
-    --pink: #FF2978;
-    --purple: #6965F8;
-}
+
 
 .logo {
     flex: 20%;
